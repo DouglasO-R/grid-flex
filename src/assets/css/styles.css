@@ -186,12 +186,24 @@ body {
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: flex-end;
 }
 
 .card__button--play::before{
     content: "\e90b";
     font-size: 24px;
 }
+
+.card__button--buy::before{
+    content: "\e901";
+    font-size: 24px;
+}
+
+.card__button--money::before{
+    content: "\e905";
+    font-size: 24px;
+}
+
 
 .card__button--emphasis{
     width: 100%;
@@ -200,4 +212,16 @@ body {
 
 .card__button--emphasis::before{
     margin-right: 8px;
+}
+
+/* SECTION */
+
+.section {
+    display: grid;
+    gap: 16px;
+}
+
+.section__title{
+    font-size: 1.2rem;
+    font-weight: 700;
 }
