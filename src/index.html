@@ -15,10 +15,22 @@
 
 <body>
     <header class="header">
-        <button class="header__menu">Menu</button>
-        <img src="./assets/img/logo.svg" alt="" class="">
-        <button class="header__notification">notificação</button>
+        <button id="btn-menu" class="header__menu" aria-label="menu"><i></i></button>
+        <img src="./assets/img/logo.svg" alt="" class="header__logo">
+        <button class="header__notification" aria-label="notification"><i></i></button>
     </header>
+
+    <nav class="aside-menu " id="aside-menu">
+        <img src="assets/img/logo.svg" alt="Logotipo Sk8" class="aside-menu__logo">
+        <a href="#" class="aside-menu__link aside-menu__link--home aside-menu__link--active">Inicio</a>
+        <a href="#" class="aside-menu__link aside-menu__link--videos">Videos</a>
+        <a href="#" class="aside-menu__link aside-menu__link--picos">Picos</a>
+        <a href="#" class="aside-menu__link aside-menu__link--members">Integrantes</a>
+        <a href="#" class="aside-menu__link aside-menu__link--tshirts">Camisas</a>
+        <a href="#" class="aside-menu__link aside-menu__link--arts">Pinturas</a>
+    </nav>
+
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
