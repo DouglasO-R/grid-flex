@@ -1,0 +1,14 @@
+body{
+    background-color:#1D232A ;
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #15191C;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}

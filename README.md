@@ -80,11 +80,11 @@ Visualizacao = `\e90f`
 
 ## Espaçamentos
 
-Espaço interno botão: `8px`
+Espaço interno botão: `8px` `0.5rem`
 
-Espaço entre elementos do botão: `8px`
+Espaço entre elementos do botão: `8px` `0.5rem`
 
-Espaço entre elementos: `16px/8px`
+Espaço entre elementos: `16px/8px` `1rem/0.5rem`
 
 Espaçamento interno do corpo: `16px`
 
